@@ -1,10 +1,9 @@
 import PropTypes from "prop-types";
 import FriendListItem from "../FriendListItem/FriendListItem";
-import friends from "../../friends.json";
 import css from "./FriendList.module.css";
 import clsx from "clsx";
 
-const FriendList = () => {
+const FriendList = ({ friends }) => {
   const listStyle = clsx(css.list);
   const itemStyle = clsx(css.item);
 
