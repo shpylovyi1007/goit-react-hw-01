@@ -1,0 +1,56 @@
+.container {
+  text-align: center;
+  width: 500px;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.container p,
+.container ul {
+  margin: 0;
+  font-size: 30px;
+}
+
+.container p {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.firstContainer {
+  padding: 16px 0;
+}
+
+.container .title {
+  font-weight: 600;
+  color: black;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  background: #b6b5b5;
+  border-top: 3px solid rgba(0, 0, 0, 0.4);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3);
+}
+
+.item:not(:last-child) {
+  border-right: 3px solid rgba(0, 0, 0, 0.4);
+}
+
+.itemSpan {
+  font-weight: 500;
+}
+
+.icon {
+  width: 100px;
+  border-radius: 50px;
+  background: black;
+}

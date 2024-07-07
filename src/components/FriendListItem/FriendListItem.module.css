@@ -1,0 +1,16 @@
+.title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.isOnline {
+  color: green;
+}
+
+.isOffline {
+  color: red;
+}
